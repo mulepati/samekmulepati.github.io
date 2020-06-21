@@ -1,2 +1,2 @@
-# samekmulepati.github.io
-Personal Website
+# Personal Website
+samekmulepati.github.io
