@@ -1,2 +1,2 @@
 # Personal Website
-samekmulepati.github.io
+https://mulepati.github.io/samekmulepati.github.io/
