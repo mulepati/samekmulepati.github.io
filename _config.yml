@@ -89,11 +89,7 @@ author:
   bio              : "Portfolio"
   location         : "Seattle, WA"
   email            : "sabalmulepati@gmail.com"
-  links:
-    - label: "Resume"
-      icon: "fas fa-fw fa-link"
-      url: "https://mulepati.github.io/samekmulepati.github.io/_pages/files/resume.pdf"
-  uri              :
+  uri              : "https://mulepati.github.io/samekmulepati.github.io/_pages/files/resume.pdf"
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
