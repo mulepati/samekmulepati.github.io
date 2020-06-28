@@ -90,6 +90,7 @@ author:
   location         : "Seattle, WA"
   email            : "sabalmulepati@gmail.com"
   uri              : "https://mulepati.github.io/samekmulepati.github.io/_pages/files/resume.pdf"
+  resume           : "https://mulepati.github.io/samekmulepati.github.io/_pages/files/resume.pdf" 
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
