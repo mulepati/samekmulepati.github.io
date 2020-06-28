@@ -8,7 +8,7 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "wa-US"
+locale                   : "en-US"
 title                    : "Samek Mulepati"
 title_separator          : "-"
 name                     : "Samek Mulepati"
