@@ -1,7 +1,7 @@
 ---
 layout: posts
 permalink: /data-wrangling/
-title: "Data Wrangling projects"
+title: "Handwritten Numerical Digits Classification"
 author_profile: true
 header:
   image: "/images/fort point.png"
