@@ -114,6 +114,10 @@ author:
   weibo            :
   xing             :
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+   links:
+    - label: "Resume"
+      icon: 
+      url: "https://mulepati.github.io/samekmulepati.github.io/_pages/files/resume.pdf"
 
 
 # Reading Files
