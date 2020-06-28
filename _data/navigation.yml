@@ -6,6 +6,8 @@ main:
     url: /projects/
   - title: "Relevent Courses"
     url: /courses/
+  - title: "Resume"
+    url: https://mulepati.github.io/samekmulepati.github.io/_pages/files/resume.pdf
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
