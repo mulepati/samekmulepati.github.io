@@ -1,11 +1,8 @@
 ---
-layout: posts
-permalink: /courses/
 title: "Relevent Courses"
-author_profile: true
+permalink: /courses/
+header:
 ---
-
-
 
 ## Autumn Quarter 2019: Freshman Year (Computer Science)
 ### CSE 311 Foundations of Computing I (Kevin Zatloukal): 
