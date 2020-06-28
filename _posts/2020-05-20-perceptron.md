@@ -1,6 +1,6 @@
 ---
-title: "Data Wrangling Project"
-date: 2018-01-28
+title: "Handwritten Numerical Digits Classifier"
+date: 2020-05-20
 tags: [data wrangling, data science, messy data]
 header:
   image: "/images/perceptron/percept.jpg"
