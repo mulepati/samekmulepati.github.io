@@ -4,8 +4,6 @@ main:
     url: /about/
   - title: "Projects"
     url: /projects/
-  - title: "Resume"
-    url: https://mulepati.github.io/samekmulepati.github.io/_pages/files/resume.pdf
   - title: "Relevent Courses"
     url: /courses/
   # - title: "About"
