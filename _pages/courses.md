@@ -31,6 +31,8 @@ Techniques for design of efficient algorithms. Methods for showing lower bounds 
 ### CSE 131 Science and Art of Digital Photography (Bruce Hemingway):
 Covers the fundamentals of digital photography, including computational imaging; the elements of photographic composition and design; and the future of internet-enabled photography.
 ## Summer Quarter 2020: Freshman Year (Computer Science)
-### CSE 344 Introduction to Data Management 
-### CSE 333 Systems Programming 
+### CSE 344 Introduction to Data Management (Ryan Maas)
+Introduces database management systems and writing applications that use such systems; data models (e.g., relational, semi-structured), query languages (e.g., SQL, XQuery), language bindings, conceptual modeling, transactions, security, database tuning, data warehousing, parallelism, and web-data management. 
+### CSE 333 Systems Programming (Travis McGaha)
+Includes substantial programming experience in languages that expose machine characteristics and low-level data representation (e.g., C and C++); explicit memory management; interacting with operating-system services; and cache-aware programming. 
 
