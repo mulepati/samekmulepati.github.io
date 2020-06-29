@@ -26,7 +26,8 @@ An example of a DirectedLabeledGraph would be G(String, String) = (V, E), where 
  
 The graph itself is implemented with an adjacency list, with a list of operations that can be done to it. The edge is represented by a private class that includes the start node
 and the end node.
-```    private HashMap<N, HashSet<Edge>> e;
+```    
+private HashMap<N, HashSet<Edge>> e;
 ```
 
 List of Operations:
