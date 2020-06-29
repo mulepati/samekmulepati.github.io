@@ -8,56 +8,15 @@ excerpt: "Implemented a graph from scratch, utilized Dijkstra's Algorithmto find
 mathjax: "true"
 ---
 
-# Campus Map Project
+# [Campus Map Project](https://github.com/mulepati/campusMap)
 
-## H2 Heading
+## Overview
 
-### H3 Heading
+UW campus map was made with a variety of modular components each of which were tested with a thorough test suite. These components included a generic graph class, campus map class, back end java spark server, and finally the front end components in react. Each java component includes specification documentation for modularity.
 
-Here's some basic text.
+### Generic Graph
 
-And here's some *italics*
+### Campus map
 
-Here's some **bold** text.
+### React
 
-What about a [link](https://github.com/dataoptimal)?
-
-Here's a bulleted list:
-* First item
-+ Second item
-- Third item
-
-Here's a numbered list:
-1. First
-2. Second
-3. Third
-
-Python code block:
-```python
-    import numpy as np
-
-    def test_function(x, y):
-      z = np.sum(x,y)
-      return z
-```
-
-R code block:
-```r
-library(tidyverse)
-df <- read_csv("some_file.csv")
-head(df)
-```
-
-Here's some inline code `x+y`.
-
-Here's an image:
-<img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/linsep.jpg" alt="linearly separable data">
-
-Here's another image using Kramdown:
-![alt]({{ site.url }}{{ site.baseurl }}/images/perceptron/linsep.jpg)
-
-Here's some math:
-
-$$z=x+y$$
-
-You can also put it inline $$z=x+y$$
