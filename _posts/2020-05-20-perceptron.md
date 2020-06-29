@@ -4,7 +4,7 @@ date: 2020-05-20
 tags: [data wrangling, data science, messy data]
 header:
   image: "/images/perceptron/percept.jpg"
-excerpt: "Data Wrangling, Data Science, Messy Data"
+excerpt: "Single layered perceptron to classifify digits 0-9. Same Perceptron used to train Pacman."
 mathjax: "true"
 ---
 
