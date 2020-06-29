@@ -1,0 +1,9 @@
+---
+title: "Image Resizing with Seam Carver"
+date: 2020-05-20
+tags: [Pathfinder, Software Engineering, Java]
+header:
+  image: "/images/seamcarving-HJoceanSmallVerticalSeam.png"
+excerpt: "Seam-carving is a content-aware image resizing technique where the image is reduced in size by one pixel of height (or width) at a time. The height or width removed is found using BFS with lowest weight such that the least about of details in an image is lost."
+mathjax: "true"
+---
