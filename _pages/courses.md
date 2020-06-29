@@ -31,4 +31,6 @@ Covers the fundamentals of digital photography, including computational imaging;
 Introduces database management systems and writing applications that use such systems; data models (e.g., relational, semi-structured), query languages (e.g., SQL, XQuery), language bindings, conceptual modeling, transactions, security, database tuning, data warehousing, parallelism, and web-data management. 
 ### CSE 333 Systems Programming (Travis McGaha)
 Includes substantial programming experience in languages that expose machine characteristics and low-level data representation (e.g., C and C++); explicit memory management; interacting with operating-system services; and cache-aware programming. 
-### [Community College] (https://mulepati.github.io/samekmulepati.github.io/_pages/files/communityCollege.pdf)
+
+
+## [Community College](https://mulepati.github.io/samekmulepati.github.io/_pages/files/communityCollege.pdf)
