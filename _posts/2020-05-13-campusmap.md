@@ -9,6 +9,7 @@ mathjax: "true"
 ---
 
 # [Campus Map Project](https://github.com/mulepati/campusMap)
+(request access through email)
 
 ## Overview
 
@@ -47,6 +48,54 @@ containsEdge(N p, N c)
 ```
 
 ### Campus map
+Campus map class utilized the generic graph to represent all the coordinates accessible in the map. The vertices in the graph were represented by (x, y) coordinates, while the edges were labeled with the distances between two points if there was a path between them. In the campus map class each building was linked to a unique point, so that you can use building names instead of the coordinates to access locations on the map. Dijkstra's Algorithm was implemented in order to find the shortest distance between two buildings. The list of buildings, coordinates, and other values were imported with a parser from a csv file. 
+
+**Generic Dijkstra's Implementation**
+
+```
+public static <T> Path<T> dijkstraPath(DirectedLabeledGraph<T, Double> graph, T s, T d) {
+        T start = s; //Starting node
+        T dest = d; //Destination node
+
+        // Each element is a path from start to a given node.
+        // A path's “priority” in the queue is the total cost of that path.
+        // Nodes for which no path is known yet are not in the queue.
+        Set<T> finished = new HashSet<T>();
+        Path<T> startPath = new Path<>(s);
+        PriorityQueue<Path<T>> active = new PriorityQueue<>();
+        active.add(startPath);
+        while (!active.isEmpty()) {
+            // minPath is the lowest-cost path in active and,
+            // if minDest isn't already 'finished,' is the
+            // minimum-cost path to the node minDest
+            Path<T> minPath = active.poll();
+            T minDest = minPath.getEnd();
+
+            if (minDest.equals(d)) {
+                return minPath;
+            }
+
+            if (finished.contains(minDest)) {
+                continue;
+            }
+
+            List<T> children = graph.listChildren(minDest);
+            for (T child : children) { // For all children of minDest
+                if (!finished.contains(child)) {
+                    // If we don't know the minimum-cost path from start to child,
+                    // examine the path we've just found
+                    List<Double> costs = graph.listLabels(minDest, child);
+                    Collections.sort(costs);
+                    Path<T> newPath = minPath.extend(child, costs.get(0));
+                    active.add(newPath);
+                }
+            }
+            finished.add(minDest);
+        }
+        return null;
+    }
+```
 
 ### React
 
+For the react component of the code, an image of the campus map was used where each coordinate point corresponds to the x and y coordinates of the map. Utilizing two threads in the spark java component, I was able to get the list of buildings with their associated coordinates. To allow the clients to select the starting location and destination I used two drop down menus. This made it so no invalid inputs would be given through the client side. The back end returned a list of coordinates for the shortest path which was used to dynamically update the webpage with a path in the image. 
