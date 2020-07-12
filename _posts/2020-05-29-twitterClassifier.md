@@ -28,10 +28,12 @@ Given the probability of this state transition you multiply it by the probiabily
 ![Part3](https://latex.codecogs.com/gif.latex?B_{t}(s_{j})&space;=&space;B''_{t}(s_{i})&space;\cdot&space;Z)
 
 Normalizing such that the probability of the belief vector sums to 1.
+
 ![part4](https://latex.codecogs.com/gif.latex?Z&space;=&space;\sum_{k&space;=&space;0}^{n&space;-&space;1}&space;B''_{t}(s_{i}))
+
 Where Z represents the sum of all values in the current belief vector.
 
-Python implimentation
+Python implementation
 ```
 def fa_one_state_advance_time(s):
     global current_belief_vector, transition_model, previous_states, second_update
