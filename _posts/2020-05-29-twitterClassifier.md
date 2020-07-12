@@ -13,16 +13,18 @@ mathjax: "true"
 # HMM Algorithms
 
 The hidden markov model is represented as a system of several componenets. These components are made utilizing the Forward Algorithm and Viterbi Algorithm. 
+The parts of speech classifier could correctly identify syntatic roles of words in test sentences at 88.7% accuracy. To test your own sentence change line 165 of Build_Twitter_HMM.py with the sentence of your choice. Run the file Build_Twitter_HMM.py from the python IDLE to generate a new Twitter_POS_HMM.py file. Run the Twitter_POS_HMM.py file from the python IDLE to get a visual representation of the sentences with the highest probability tag high lighted. 
+
 ### Forward Algorithm
 The forward algorithem makes a pass through the HMM starting at one state and ending at the end state. During each step it passes through a belief vector that finds the probablity of the transition to the next state, where each probability is calculated using the following equations. 
 ![Part1](https://latex.codecogs.com/gif.latex?B'_{t}(s^{_{j}})&space;=&space;\sum_{i&space;=&space;1}^{n&space;-&space;1}a_{ij}\cdot&space;B_{t&space;-&space;1}(s_{i}))
 
-The "forward simulation" phase which is used to extimate the next step's belief vector for B'_t. 
+The "forward simulation" phase which is used to estimate the next step's belief vector for B'_t. 
 Secondary intermediate value 
 
 ![Part2](https://latex.codecogs.com/gif.latex?B''_{t}(s_{j})&space;=&space;B'_{t}(s_{j})&space;\cdot&space;e_{jk})
 
-Given the probability of this state transition you multiply it by the probiabilyt that it is this state given the emmision probability, based on the observed word and the state value.
+Given the probability of this state transition you multiply it by the probability that it is this state given the emmision probability, based on the observed word and the state value.
 
 
 ![Part3](https://latex.codecogs.com/gif.latex?B_{t}(s_{j})&space;=&space;B''_{t}(s_{i})&space;\cdot&space;Z)
@@ -33,7 +35,10 @@ Normalizing such that the probability of the belief vector sums to 1.
 
 Where Z represents the sum of all values in the current belief vector.
 
-Python implementation
+### Viterbi Algorithm
+
+
+# Python implementation
 ```
 def fa_one_state_advance_time(s):
     global current_belief_vector, transition_model, previous_states, second_update
@@ -116,4 +121,23 @@ def fa_finish_time_step(e):
         probability_values.append(temp_belief)
 ```
 
-## Installation
+## Credits
+
+This folder contains the starter code for Assignment 7 in
+CSE 473, Spring 2020, at the Paul G. Allen School of Computer Science
+and Engineering.  The code was written by Steve Tanimoto, to facilitate
+students' explorations of the use of Hidden Markov Models in
+Part-Of-Speech tagging in Natural Language Processing.
+
+The data here comes to CSE 473 by way of TA Amir Mola, who took 
+CSE 447 taught by Prof. Yejin Choi.  The tagging of this data was
+the topic of a research paper by Gimpel et al at Carnegie-Mellon Univ.
+One of the authors was Dr. Noah Smith, now an NLP faculty member in
+the Allen School.
+
+For details on how the code is intended to be used and/or completed,
+see the full specification on the CSE 473 Assignment 7 web page.
+
+Version 1.0 of the starter code was released May 20, 2020.
+The code here is V 1.0.
+
