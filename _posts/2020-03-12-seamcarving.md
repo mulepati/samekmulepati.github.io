@@ -23,7 +23,8 @@ The program first creates an energy map of the image utilizing the dual-gradient
 ![image2](https://courses.cs.washington.edu/courses/cse332/20wi/assets/images/seamcarving-HJoceanSmallEnergy.png)
 
 **Dual-Gradient Energy Function **
-![function1](https://latex.codecogs.com/gif.latex?energy(x,&space;y)&space;=&space;\sqrt&space;(\nabla_x^2&space;(x,&space;y)&space;&plus;&space;\nabla_y^2(x,&space;y))%22%20title=%22energy(x,%20y)%20=%20\sqrt%20(\nabla_x^2%20(x,%20y)%20+%20\nabla_y^2(x,%20y)))
+
+![function1](https://latex.codecogs.com/gif.latex?energy(x,&space;y)&space;=&space;\sqrt&space;(\nabla_x^2&space;(x,&space;y)&space;&plus;&space;\nabla_y^2(x,&space;y)))
 
 Where the square of the x-gradient is Red(x, y)^2 + Green(x,y)^2 + Blue(x,y)^2 and same for the y-gradient. Since each image is represented by a matrix of pixals, where each pixal has a value for red, green, and blue inorder to determine its color. The following function takes the image and creates a diffirent matrix that has only has one value for each pixal representing the energy of the given pixal. 
 
