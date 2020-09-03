@@ -18,8 +18,11 @@ This was a class project where we attempted to learn how to solve real-world gra
 #### Energy Calculation
 
 The program first creates an energy map of the image utilizing the dual-gradient engergy function below. Converting an image like this:
+
 ![image1](https://courses.cs.washington.edu/courses/cse332/20wi/assets/images/seamcarving-HJoceanSmall.png)
+
  into and energy graph which would look like this:
+ 
 ![image2](https://courses.cs.washington.edu/courses/cse332/20wi/assets/images/seamcarving-HJoceanSmallEnergy.png)
 
 
@@ -37,7 +40,9 @@ Where the square of the x-gradient is Red(x, y)^2 + Green(x,y)^2 + Blue(x,y)^2 a
 | (163, 222, 132) | (187, 117, 183) |  (92, 145, 69)  |  (158, 143, 79) |  (220, 75, 222) |  (189, 73, 214) |
 | (211, 120, 173) | (188, 218, 244) |  (214, 103, 68) | (163, 166, 246) |  (79, 125, 246) |  (211, 201, 98) |
 
+
 So given an image that can be represented the graph above, the energy converstion step converts it into a table like this.
+
 
 | 240.18 | 225.59 | 302.27 | 159.43 | 181.81 | 192.99 |
 |:------:|:------:|:------:|:------:|:------:|:------:|
