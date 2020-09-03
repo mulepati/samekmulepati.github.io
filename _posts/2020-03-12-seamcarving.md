@@ -22,7 +22,9 @@ The program first creates an energy map of the image utilizing the dual-gradient
  into and energy graph which would look like this:
 ![image2](https://courses.cs.washington.edu/courses/cse332/20wi/assets/images/seamcarving-HJoceanSmallEnergy.png)
 
-**Dual-Gradient Energy Function **
+
+**Dual-Gradient Energy Function**
+
 
 ![function1](https://latex.codecogs.com/gif.latex?energy(x,&space;y)&space;=&space;\sqrt&space;(\nabla_x^2&space;(x,&space;y)&space;&plus;&space;\nabla_y^2(x,&space;y)))
 
