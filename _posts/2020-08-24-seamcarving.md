@@ -1,6 +1,6 @@
 ---
 title: "Content Aware Image Resizing"
-date: 2020-02-24
+date: 2020-08-24
 tags: [Pathfinder, Java]
 header:
 excerpt: "Attempted to create an image resizing program, based on a 2007 pathfinding algorithm"
