@@ -6,7 +6,7 @@ header:
 excerpt: "Concurrent Flight Manager is a Java terminal interface that allows you to log in as a user and book a number of flights. SQL database hosted on Azure was used."
 mathjax: "true"
 ---
-
+# Concurrent Flight Manager
 ## Overview:
 
 Concurrent Flight Manager is a Java terminal interface that allows you to log in as a user and book a number of flights. Users can create accounts, where passwords are stored on the database, passwords are hashed and stored with salt for verification. Multiple requests can be made, with transactions handled on a MySQL server hosted on Azure, simultaneous requests and deadlocks are resolved in Java. 
