@@ -1,6 +1,6 @@
 ---
 title: "Concurrent Flight Manager"
-date: 2020-85-20
+date: 2020-8-20
 tags: [Database, Java, Class_Project]
 header:
 excerpt: "Concurrent Flight Manager is a Java terminal interface that allows you to log in as a user and book a number of flights. SQL database hosted on Azure was used."
