@@ -31,6 +31,11 @@ Covers the fundamentals of digital photography, including computational imaging;
 Introduces database management systems and writing applications that use such systems; data models (e.g., relational, semi-structured), query languages (e.g., SQL, XQuery), language bindings, conceptual modeling, transactions, security, database tuning, data warehousing, parallelism, and web-data management. 
 ### CSE 333 Systems Programming (Travis McGaha)
 Includes substantial programming experience in languages that expose machine characteristics and low-level data representation (e.g., C and C++); explicit memory management; interacting with operating-system services; and cache-aware programming. 
-
-
+## Autumn Quarter 2020:
+### CSE 490Q Quantum Computer (Kevin Zatloukal)
+Topics to be covered include: Introduction to quantum computing Programming quantum algorithms Q# programming language Quantum subroutines Quantum algorithms (including Shor’s factoring algorithm, Grover’s search algorithm, Hamiltonian simulation, machine learning and optimization) Quantum error-correcting codes and fault-tolerance
+### CSE 442 Data Visualization (Jeffrey Michael Heer)
+Techniques for creating effective visualizations of data based on principles from graphic design, perceptual psychology, and statistics. Topics include visual encoding models, exploratory data analysis, visualization software, interaction techniques, graphical perception, color, animation, high-dimensional data, cartography, network visualization, and text visualization.
+### CSE 484 Computer Security (Franziska Roesner)
+Foundations of modern computer security, including software security, operating system security, network security, applied cryptography, human factors, authentication, anonymity, and web security. 
 ## [Community College 2017-2019](https://mulepati.github.io/samekmulepati.github.io/_pages/files/communityCollege.pdf)
